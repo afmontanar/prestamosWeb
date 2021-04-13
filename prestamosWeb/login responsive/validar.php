@@ -20,7 +20,7 @@ if($filas){
 }else{
     ?>
     <?php
-    include("index.html");
+    include("loginvista.html");
 
   ?>
   <h1 class="bad">ERROR DE AUTENTIFICACION</h1>
