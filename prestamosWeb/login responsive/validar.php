@@ -8,7 +8,7 @@ $_SESSION['usuario']=$usuario;
 
 $conexion=mysqli_connect("localhost","root","admin","prestamos");
 
-$consulta="SELECT*FROM usuarios where usuario='$usuario' and contraseña='$contraseña'";
+$consulta="SELECT*FROM usuarios where usuario='$usuario' and contrasena='$contraseña'";
 $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_num_rows($resultado);
